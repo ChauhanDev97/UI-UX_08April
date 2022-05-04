@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#container{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1627037558426-c2d07beda3af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1575&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#left{
+    width: 25%;
+    height: 100%;
+}
+
+#top{
+    position: relative;
+    padding:30px 50px;
+    width: 100%;
+    height: 70%;
+    background-color: #f0b4aa;
+}
+
+#logo{
+    padding: 5px;
+    width: 120px;
+    height: 40px;
+}
+
+#logo img{
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+#text{
+    left: 40%;
+    top: 40%;
+    position: absolute;
+    width: 350px;
+    color: #fff;
+    height: 150px;
+}
+
+#text h1{
+    font-weight: 600;
+}
+
+#text h5{
+    font-size: 12px;
+    font-weight: 400;
+    width: 90%;
+    letter-spacing: 1.2px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#text h6{
+    text-decoration: line-through;
+    font-weight: 500;
+    font-size: 12px;
+    color: orangered;
+}
+
+#bottom{
+    width: 100%;
+    height: 30%;
+    background-color: #fff;
+    padding: 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottom p{
+    color: rgba(128, 128, 128, 0.933);
+    font-size: 10px;
+}
+
+#right{
+    padding: 30px;
+    position: relative;
+    width: 45%;
+    height: 100%;
+}
+
+#rcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 30px;
+    width: 320px;
+    height: 250px;
+}
+
+#rcon div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 50px;
+}
+
+#rcon div a{
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#right #p{
+    margin-top: 20px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+}
+
+#p #pleft{
+    margin-right: 20px;
+    flex-direction: column;
+    display: flex;
+    width: 240px;
+    height: 90%;
+}
+
+#pleft #ptop{
+    width: 100%;
+    height: 80%;
+}
+
+#ptop img{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#pleft #pbot{
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    color: #db9996;
+    background-color: #ffff;
+}
+
+#pbot h6{
+    font-weight: 500;
+   }
+   
+#pbot i{
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+#p #pright{
+    flex-direction: column;
+    display: flex;
+    width: 240px;
+    height: 90%;
+}
+
+#pright #rtop{
+    width: 100%;
+    height: 80%;
+}
+
+#rtop img{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#pright #rbot{
+    color: #92c7bb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    background-color: #ffff;
+    border-radius: 0 0 5px 5px;
+}
+
+#rbot h6{
+ font-weight: 500;
+}
+
+#rbot i{
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+#rside{
+    position: absolute;
+    right: 45px;
+    top: 50%;
+    width: 40px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+
+#rside div{
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+#rside div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+#bott{
+    padding: 0 30px;
+    right: 45px;
+    position: absolute;
+    bottom: 30px;
+    width: 350px;
+    border-radius: 5px;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#bott h6{
+    color: #303030;
+}
+
+#bott #line{
+    width: 50px;
+    height: 1px;
+    background-color: #949494;
+}
+
+#cir{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+}
+
+#cir img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#cir h5{
+    font-weight: 600;
+    color: #464646;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}

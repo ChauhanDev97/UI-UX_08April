@@ -1,0 +1,26 @@
+<svg width="46" height="198" viewBox="0 0 46 198" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="46" height="45" fill="white"/>
+<rect x="3" y="3" width="17.75" height="17.75" stroke="#434343" stroke-width="2"/>
+<rect x="3" y="24" width="17.75" height="17.75" stroke="#434343" stroke-width="2"/>
+<rect x="25" y="3" width="17.75" height="17.75" stroke="#434343" stroke-width="2"/>
+<rect x="25" y="24" width="17.75" height="17.75" stroke="#434343" stroke-width="2"/>
+<g opacity="0.5">
+<rect x="4" y="55" width="40" height="41" fill="white"/>
+<rect x="3" y="56" width="18" height="39" stroke="#434343" stroke-width="2"/>
+<rect x="25" y="56" width="17.75" height="17.75" stroke="#434343" stroke-width="2"/>
+<rect x="25" y="77" width="17.75" height="17.75" stroke="#434343" stroke-width="2"/>
+</g>
+<g opacity="0.5">
+<rect x="2" y="106" width="42" height="41" fill="white"/>
+<rect x="3" y="107" width="18" height="26" stroke="#434343" stroke-width="2"/>
+<rect x="25" y="107" width="17.75" height="7.875" stroke="#434343" stroke-width="2"/>
+<rect x="3" y="138" width="17.75" height="7.875" stroke="#434343" stroke-width="2"/>
+<rect x="25" y="120" width="18" height="26" stroke="#434343" stroke-width="2"/>
+</g>
+<g opacity="0.5">
+<rect x="4" y="157" width="40" height="41" fill="white"/>
+<rect x="3" y="158" width="18" height="39" stroke="#434343" stroke-width="2"/>
+<rect x="25" y="158" width="17.75" height="17.75" stroke="#434343" stroke-width="2"/>
+<rect x="25" y="179" width="17.75" height="17.75" stroke="#434343" stroke-width="2"/>
+</g>
+</svg>
